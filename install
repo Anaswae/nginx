@@ -54,7 +54,7 @@ echo " "
 echo "#########################################################################################################################"
 
 #Install phpMyAdmin
-sudo apt-get install phpmyadmin
+sudo apt-get -y install phpmyadmin
 
 #Reload Nginx 
 sudo service nginx reload
@@ -68,6 +68,13 @@ sudo mysql_secure_installation
 #Refresh History
 sudo rm -rf /home/pi/.bash_history
 sudo cp -r bash_history /home/pi/.bash_history
+
+#Install Vsftpd
+sudo chown -R pi /var/www/html
+sudo apt-get -y install vsftpd
+sudo rm -rf /etc/vsftpd.conf
+sudo cp -r vsftpd.conf /etc/
+
 
 echo "#########################################################################################################################"
 echo " "
