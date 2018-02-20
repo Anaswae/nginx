@@ -75,6 +75,9 @@ sudo apt-get -y install vsftpd
 sudo rm -rf /etc/vsftpd.conf
 sudo cp -r vsftpd.conf /etc/
 
+#Set Waktu Di Raspberry pi
+#sudo date -s "22 FEB 2018 17:30:30"
+
 
 echo "#########################################################################################################################"
 echo " "
