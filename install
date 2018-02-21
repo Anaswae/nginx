@@ -78,6 +78,7 @@ sudo cp -r vsftpd.conf /etc/
 #rc.local agar start ssh
 sudo rm -rf /etc/rc.local
 sudo cp -r rc.local /etc
+sudo chmod +x /etc/rc.local
 #Set Waktu Di Raspberry pi
 #sudo date -s "22 FEB 2018 17:30:30"
 
