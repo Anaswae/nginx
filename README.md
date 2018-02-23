@@ -1,11 +1,20 @@
 ### Pendahuluan
-Ini Merupakan Script Bash Untuk Menginstall Web Server dengan Nginx dengan mudah, tanpa
-perlu buka file lainnya, cukup dengan sekali install
+Ini Merupakan Script Bash Untuk Menginstall Beberapa apps untuk server raspberrypi, yaitu list apps nya
+* Nginx
+* PHP7.0
+* phpMyAdmin
+* vsftpd
+
+Dan Beberapa Edit Konfigurasi yaitu :
+* edit /etc/nginx/sites-available/default
+* edit conf /etc/nginx/nginx.conf
+* edit /etc/rc.local > dengan add /etc/init.d/ssh start agar ssh aktif secara otomatis
+* edit .bash_history
 
 OS Server Tested : Saya Menggunakan Debian 9 Stretch, Mungkin bisa digunakan untuk Ubuntu 16.04 - 17.10
 dan versi tingkat atas nya,
 
-### Instalasi Nginx, PHP7.0, phpMyAdmin
+### Instalasi 
 1. instalasi cukup dengan <code>git clone https://github.com/rifkytech/nginx-lemp.git</code>
 2. Kemudian <code>cd nginx-lemp</code>
 3. setelah itu <code>chmod 777 install</code>
