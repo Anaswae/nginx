@@ -10,6 +10,7 @@ Dan Beberapa Edit Konfigurasi yaitu :
 * edit /etc/nginx/sites-available/default
 * edit conf /etc/nginx/nginx.conf
 * edit /etc/rc.local > dengan add /etc/init.d/ssh start agar ssh aktif secara otomatis
+* edit /etc/php/7.0/fpm/php.ini
 * edit .bash_history
 
 OS Server Tested : Saya Menggunakan Debian 9 Stretch, Mungkin bisa digunakan untuk Ubuntu 16.04 - 17.10
