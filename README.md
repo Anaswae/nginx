@@ -2,6 +2,7 @@
 Ini Merupakan Script Bash Untuk Menginstall Beberapa apps untuk server raspberrypi, yaitu list apps nya
 * Nginx
 * PHP7.0
+* Mysql
 * phpMyAdmin
 * vsftpd
 
