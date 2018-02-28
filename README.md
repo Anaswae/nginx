@@ -21,7 +21,7 @@ Persiapan Sebelum Instalasi, Install dahulu git dengan <code>sudo apt-get instal
 Setelah Itu  :
 
 1. instalasi cukup dengan <code>git clone https://github.com/rifkytech/nginx.git</code>
-2. Kemudian <code>cd nginx-lemp</code>
+2. Kemudian <code>cd nginx</code>
 3. setelah itu <code>chmod 777 install</code>
 4. nah selesai, untuk install nginx nya, cukup dengan perintah <code>./install</code>
 
